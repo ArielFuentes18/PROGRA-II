@@ -13,7 +13,7 @@ exports.create = (req, res) => {
         return;
     }
 
-    // Create a Client, definiendo una variable con la estructura del reques para luego solo ser enviada como parametro mas adelante. 
+    // Create a proveedor, definiendo una variable con la estructura del reques para luego solo ser enviada como parametro mas adelante. 
     const proveedor = {
         nombre: req.body.nombre,
         apellido: req.body.apellido,
